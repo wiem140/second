@@ -1,0 +1,71 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    display: block;
+    margin-top: 0px;
+    margin-left: 100px;
+      
+    
+}
+.logo-docplanner {
+    text-decoration: none;
+    background-color:transparent;
+   
+
+    
+    
+
+}
+
+header{
+    position: fixed;
+ 
+    
+  
+}
+.menu{
+    margin-left: 700px;
+}
+    
+.menu a {
+
+   color: #00b39b; 
+   padding-bottom: 5px;
+
+    
+
+    }
+.lead__logo {
+display: block;
+margin: 70px;
+padding-left: 420px;
+
+    }
+    h1{
+        margin: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+    text-align: center;
+    }
+    .grid-container{
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto ; 
+
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    }
+    .services__item_services__item--marketplace{
+    background-color: blue;   
+    }

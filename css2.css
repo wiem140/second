@@ -1,0 +1,350 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+     margin-left: 150px; 
+     margin-right:100px;
+     display:block ;
+
+
+}
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    }
+li{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.125em;
+    color: #00b39b;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+    padding-right: 700px;
+    margin-top: 0ch;
+    
+}
+
+.firstdiv{
+    position: fixed;
+    height: 70px;
+   
+     background-color:white;
+    
+    
+ }
+ a{
+    color: #00b39b; 
+    
+ }
+ li{
+     display:inline;
+    
+ }
+ .menu{
+    margin-top: -30px;
+   
+    padding-left: 800px;
+    
+
+ }
+ .dropdown{
+    color:#747474,!important;  
+ }
+ 
+ 
+ .hid{
+    visibility: hidden;
+}
+
+.dropdown:hover .hid{
+    display: block;
+background-color: #666;
+}
+ul li ul li:hover {background: #666;}
+.lead__logo{
+    padding-left: 550px;
+    margin-top:100px;
+}
+
+.grid{
+    display: grid;
+    grid-gap:75px;
+    grid-template-columns: auto auto ; 
+    text-align: center;
+}
+.col-2{
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.secondsection h1{
+    color:#fff;
+    
+}
+.seconddiv{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff !important;
+    
+
+}
+.services__item h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;}
+    .services__item {
+        border-radius: 10px;
+        padding: 2em 2em 0;
+        overflow: hidden;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all .2s ease 0s;
+        color:#fff;
+    }
+    .patients {
+        background: #00ccb1;
+    width:300px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+color:#fff;
+}
+        .services__item--saas {
+            background: #3d83df;
+            width:300px;
+            color:#fff
+            
+        }
+     .clinics {
+            background: #1b2734;
+            width:300px;
+            border-radius: 10px;
+            padding: 2em 2em 0;
+            overflow: hidden;
+            height: 345px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all .2s ease 0s;
+            color:#fff;
+        }
+        .country {
+            
+            background:transparent;
+                   
+          
+            -webkit-appearance: none;
+            text-transform: none;
+           
+            margin-bottom: 50px;
+        }
+       
+        
+   .brands-section__inner {
+    margin: 5px;
+    display: block;
+    margin-top: 50px;
+}
+        
+            .brands-section__inner h1 {
+                float: left;
+                width: 300px;
+                font-size:25px;;
+                
+                
+                }
+     .brands__logos{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+    font-size: 0px;
+               
+                list-style: none;
+            }
+            .brands__logos a {
+                display: inline-block;
+                padding: 5px 0;
+            }
+            .brands__logos li {
+                font-size: 1px;
+                display: inline-block;
+                width: 160px;
+                padding: 5px 0;
+            }
+            .brands__logos a svg {
+                height: 20px;
+                width: auto;
+                max-width: 100%;
+                padding-left: 10px;
+            }
+            .brands-section__inner{
+                display: grid;
+                grid-template-columns: auto auto auto auto ;
+                grid-gap: 30px;
+            }
+            .brands-section__inner h1{
+                grid-row: 1 / 4;
+            } 
+            .brands__logos a path {
+                transition: all .2s ease 0s;
+                fill: hsla(0,0%,67%,.7);}
+                .stats__header {
+                    margin-top: 2em;
+                }
+                .col-2 {
+                    width: 100%;
+                }
+                .stats{
+                    background:rgb(179, 252, 250);
+                }
+                .stats__item {
+                    background: #fff;
+                    border-radius: 5px;
+                    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+                    height: 250px;
+                    text-align: center;
+                    padding: 15px;
+                    font-size: .8125em;
+                }
+                .stats__item h3 {
+                    font-size: 1.8461538462em;
+                    color: #00b39b;
+                    margin: .5em 0;
+                }
+                .fade-elements>.fade-elements__visible {
+                    transform: translate(0);
+                    opacity: 1;}
+                    [class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+                .vert-align{
+                    margin-top: 10px;
+                }
+                .grid {
+                    margin: 0 -10px;
+                }
+                .offices__header h1 {
+                    font-size: 2.1428571429em;
+                }
+                .offices__header {
+                    max-width: 460px;
+                    margin:  auto;
+                    font-size: .875em;
+                    text-align: center;
+                }
+                h1:first-child {
+                    margin: 0;}
+                    .offices__header p {
+                        line-height: 1.7142857143;
+                    }
+                   
+                    .office__image img {
+                        display: block;
+                        max-width: 800px;
+                        height: auto;
+                        margin-left: -40px;
+                        
+                    }
+                    
+                   
+                                   
+                    .office__inner {
+                        background: #fff;
+                        border: 1px solid rgba(0,0,0,.03);
+                        border-radius: 6px;
+                        overflow: hidden;
+                        max-width: 311px;
+                        display: block;
+                        color: #747474;
+                    }
+                    .offices__slider{
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+                       
+                    }
+                    .office .btn {
+                        float: right;
+                    }
+                    .btn--small {
+                        font-size: .625rem;
+                        padding: 1em 1.5em;
+                    }
+                    .btn {
+                        display: inline-block;
+                        vertical-align: middle;
+                        
+                              align-items: center;                  
+                        border-radius: 4px;
+                        padding: 1.1666666667em 1.5em;
+                        background: #3d83df;
+                        font-family: Roboto,Arial,sans-serif;
+                      
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: .75rem;
+                        text-align: center;
+                        
+                       
+                    }
+                    .join-us__header{
+                        text-align: center;
+                    }
+                    .office__desc {
+                        font-size: 1.125em;
+                        font-weight: 400;
+                      
+                    }
+                    .join-us__header h1 {
+                        font-size: 2.1428571429em;
+                        color: #333;
+                        margin-bottom: .75em;
+                    }
+                    h1:first-child {
+                        margin: 0;
+                    }
+                    
+                    .main-footer .section__inner, .main-footer p {
+                        font-size: 12px;
+                        color: #ababab;
+                    }
+                    .section__inner {
+                    
+                        max-width: 1015px;
+                        padding:  20px;
+                        margin:  auto;
+                    }
